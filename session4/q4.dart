@@ -7,16 +7,22 @@
  */
 void main() {
   Map<String, int> fruits = {'banana': 10, 'apple': 15, 'orange': 7};
-
-  getPrice(fruits, 'fff');
+  getPrice(fruits, 'apple');
 }
 
-int getPrice(Map frut, String name) {
-  frut.forEach((name) {
-    if (frut.containsKey(name)) {
-      int dd = frut[name];
-      return dd;
-    } else
-      return -1;
-  });
+getPrice(Map<String, int> fruits, String name) {
+  if (fruits.containsKey(name)) {
+    print(fruits[name]);
+  } else
+    print(-1);
 }
+
+// int getPrice(Map frut, String name) {
+//   frut.forEach((name) {
+//     if (frut.containsKey(name)) {
+//       int dd = frut[name];
+//       return dd;
+//     } else
+//       return -1;
+//   });
+// }

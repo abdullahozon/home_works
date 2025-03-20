@@ -5,16 +5,12 @@
 
 void main() {
   for (int i = 1; i < 21; i++) {
-    if (i % 3 == 0) {
-      print('$i Fizz');
-      if (i % 5 == 0) {
-        print("$i is FizzBuzz");
-      }
+    if (i % 3 == 0 && i % 5 == 0) {
+      print('$i FizzBuzz');
     } else if (i % 5 == 0) {
       print('$i Buzz');
-      if (i % 3 == 0) {
-        print("$i is FizzBuzz");
-      }
+    } else if (i % 3 == 0) {
+      print('$i Fizz');
     }
   }
 }
