@@ -7,6 +7,6 @@
 import 'q9_regtangle.dart';
 
 void main() {  
-  Rectangle rec = Rectangle(-2,5);
-  rec.getAria();
+  Rectangle rec = Rectangle(-2, 5); // لا يمكن أن يكون العرض سالبًا
+  rec.getArea(); // يجب استدعاء دالة getArea بدلاً من getAria
 }

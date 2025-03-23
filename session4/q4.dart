@@ -16,13 +16,3 @@ getPrice(Map<String, int> fruits, String name) {
   } else
     print(-1);
 }
-
-// int getPrice(Map frut, String name) {
-//   frut.forEach((name) {
-//     if (frut.containsKey(name)) {
-//       int dd = frut[name];
-//       return dd;
-//     } else
-//       return -1;
-//   });
-// }
