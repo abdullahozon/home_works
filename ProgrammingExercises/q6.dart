@@ -3,7 +3,6 @@
  Write a function that counts the number of words in a given sentence.
  Words are separated by spaces, and the function should ignore extra spaces
 */
-import 'dart:io';
 
 void main() {
   String senence = "   aaa   fffff  eeeeeee     edsdfbsdrfg sfsdfsd   ";

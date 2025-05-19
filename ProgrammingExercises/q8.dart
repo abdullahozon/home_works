@@ -4,7 +4,6 @@ Sum of List Elements
  Example:
  sumList([1, 2, 3, 4, 5]) -> 15
 */
-import 'dart:io';
 
 void main() {
   var listOfNumbers = [1, 2, 3, 4, 5];

@@ -9,11 +9,11 @@ class QuestionNavigator extends StatelessWidget {
   final QuestionManager questionManager;
 
   const QuestionNavigator({
-    Key? key,
+    super.key,
     required this.pageController,
     required this.pageIndex,
     required this.questionManager,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

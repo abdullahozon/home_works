@@ -8,7 +8,7 @@ import 'package:quiz_app/styles/app_colors.dart';
 import 'package:quiz_app/widgets/custom_background_container.dart';
 
 class QuestionView extends StatefulWidget {
-  const QuestionView({Key? key}) : super(key: key);
+  const QuestionView({super.key});
 
   @override
   State<QuestionView> createState() => _QuestionViewState();

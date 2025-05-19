@@ -4,7 +4,6 @@ Reverse a String
 Example:
  reverseString('hello') -> 'olleh
 */
-import 'dart:io';
 
 void main() {
   String hello = 'hello';

@@ -8,11 +8,11 @@ class PageIndicator extends StatelessWidget {
   final int total;
 
   const PageIndicator({
-    Key? key,
+    super.key,
     required this.controller,
     required this.pageIndex,
     required this.total,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

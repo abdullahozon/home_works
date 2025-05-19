@@ -8,11 +8,11 @@ class QuestionBody extends StatelessWidget {
   final VoidCallback onAnswerSelected;
 
   const QuestionBody({
-    Key? key,
+    super.key,
     required this.pageController,
     required this.questionManager,
     required this.onAnswerSelected,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
