@@ -7,6 +7,19 @@ class CustomBackgroundContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [Image.asset(Assets.imagePngGradient), child]);
+    return Stack(
+      children: [
+        Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(Assets.imagePngGradient),
+              fit: BoxFit.fill,
+            ),
+          ),
+        ),
+        
+        child,
+      ],
+    );
   }
 }

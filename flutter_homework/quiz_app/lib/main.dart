@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/views/home_views.dart';
-import 'package:quiz_app/views/legacy/legacy_question_view.dart';
-import 'package:quiz_app/views/questions/question_view.dart';
+import 'package:quiz_app/widgets/questions/question_widget.dart';
 
 void main() {
   runApp(const QuizApp());
@@ -19,7 +18,6 @@ class QuizApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const HomeViews(),
-        '/legacy-quiz': (context) => const LegacyQuestionView(),
         '/questions': (context) => const QuestionView(),
       },
     );

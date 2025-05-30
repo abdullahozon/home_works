@@ -14,6 +14,7 @@ class QuestionOptions extends StatefulWidget {
     required this.questionIndex,
     required this.options,
     required this.questionManager,
+
     required this.onAnswerSelected, // ← جديد
   });
 

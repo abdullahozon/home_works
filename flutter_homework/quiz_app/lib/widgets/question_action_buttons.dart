@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/widgets/back_button.dart';
 import 'package:quiz_app/widgets/next_button.dart';
 
-class QuestionActionButtons extends StatelessWidget {
+class QuestionActionButtons extends StatelessWidget  {
   final VoidCallback onBackPressed;
   final VoidCallback onNextPressed;
   final bool canGoBack;

@@ -1,19 +1,17 @@
-2025/05/18-17:07:27.694 918 Reusing MANIFEST C:\Users\w10\AppData\Local\Temp\flutter_tools.1f9a6d46\flutter_tools_chrome_device.d602b2f9\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2025/05/18-17:07:27.696 918 Recovering log #16
-2025/05/18-17:07:27.697 918 Reusing old log C:\Users\w10\AppData\Local\Temp\flutter_tools.1f9a6d46\flutter_tools_chrome_device.d602b2f9\Default\EdgeCoupons/coupons_data.db/000016.log 
-2025/05/18-17:07:27.700 918 Delete type=0 #4
-2025/05/18-17:07:27.700 918 Delete type=0 #7
-2025/05/18-17:07:27.700 918 Delete type=0 #10
-2025/05/18-17:07:27.700 918 Delete type=0 #13
-2025/05/18-17:07:40.424 2284 Level-0 table #20: started
-2025/05/18-17:07:40.547 2284 Level-0 table #20: 670896 bytes OK
-2025/05/18-17:07:40.689 2284 Delete type=0 #16
-2025/05/18-17:07:40.691 2284 Compacting 4@0 + 1@1 files
-2025/05/18-17:07:40.782 2284 Generated table #21@0: 3 keys, 670896 bytes
-2025/05/18-17:07:40.782 2284 Compacted 4@0 + 1@1 files => 670896 bytes
-2025/05/18-17:07:40.805 2284 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/18-17:07:40.806 2284 Delete type=2 #8
-2025/05/18-17:07:40.806 2284 Delete type=2 #11
-2025/05/18-17:07:40.807 2284 Delete type=2 #14
-2025/05/18-17:07:40.807 2284 Delete type=2 #17
-2025/05/18-17:07:40.807 2284 Delete type=2 #20
+2025/05/19-17:53:56.287 2850 Reusing MANIFEST C:\Users\w10\AppData\Local\Temp\flutter_tools.631f2f7b\flutter_tools_chrome_device.8a4f6523\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/19-17:53:56.289 2850 Recovering log #26
+2025/05/19-17:53:56.290 2850 Reusing old log C:\Users\w10\AppData\Local\Temp\flutter_tools.631f2f7b\flutter_tools_chrome_device.8a4f6523\Default\EdgeCoupons/coupons_data.db/000026.log 
+2025/05/19-17:53:56.295 2850 Delete type=0 #4
+2025/05/19-17:53:56.295 2850 Delete type=0 #7
+2025/05/19-17:53:56.296 2850 Delete type=2 #8
+2025/05/19-17:53:56.296 2850 Delete type=0 #10
+2025/05/19-17:53:56.296 2850 Delete type=2 #11
+2025/05/19-17:53:56.296 2850 Delete type=0 #13
+2025/05/19-17:53:56.297 2850 Delete type=2 #14
+2025/05/19-17:53:57.261 2850 Delete type=0 #16
+2025/05/19-17:53:57.433 2850 Delete type=2 #17
+2025/05/19-17:53:57.611 2850 Delete type=0 #19
+2025/05/19-17:53:57.831 2850 Delete type=0 #23
+2025/05/19-17:54:06.396 488c Level-0 table #30: started
+2025/05/19-17:54:06.537 488c Level-0 table #30: 670896 bytes OK
+2025/05/19-17:54:06.588 488c Delete type=0 #26
