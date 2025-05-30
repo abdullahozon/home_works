@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/views/home_views.dart';
-import 'package:quiz_app/widgets/questions/question_widget.dart';
+import 'package:quiz_app/views/question_view.dart';
 
 void main() {
   runApp(const QuizApp());
